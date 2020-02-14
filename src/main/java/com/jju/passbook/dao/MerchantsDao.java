@@ -22,4 +22,5 @@ public interface MerchantsDao extends JpaRepository<Merchants, Integer> {
      */
     Merchants findByName(String name);
 
+
 }
